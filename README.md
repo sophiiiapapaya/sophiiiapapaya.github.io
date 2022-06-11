@@ -1,2 +1,4 @@
-# sophiiiapapaya.github.io
-This repository is used to build my personal website that acts as a portfolio or resume.
+# Template
+
+A Pen created on CodePen.io. Original URL: [https://codepen.io/sophiiiapapaya/pen/gOoELNg](https://codepen.io/sophiiiapapaya/pen/gOoELNg).
+
