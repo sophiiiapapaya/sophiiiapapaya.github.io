@@ -53,15 +53,6 @@
     --smaller-font-size: .813rem; 
     --tiny-font-size: .688rem; 
   }
-
-  .intro{
-    display: flex;
-    gap: 5rem;
-    justify-content: space-between;
-  }
-  .intro img{
-    width: 50%;
-  }
 }
 /*===================== Base =========================*/
 *{
@@ -227,88 +218,142 @@ img{
   bottom: 2rem;
 }
 
-
-main {
-  min-height: 80vh;
-  background: linear-gradient(to right top, #91C1CB, #B9D6A9);
-  display: flex; 
-  align-items: center;
-  justify-content: right;
-  z-index: 0;
-}
-main > header {
-  padding: 3rem 3rem 0 3rem;
+/*================== Home =====================*/
+.home__container{
+  row-gap: 4rem;
+  padding-top: 2rem;
 }
 
-section{
-  padding: 5%;
-}
-/*
-.hero {
-  position: absolute; 
-  right: 0;
-  top: 0;
-  height: 90vh;
-  z-index: 1;
-}*/
-
-
-.glass{
-  background: rgba(255, 255, 255, 0.478);
-  min-height: 80vh; 
-  width: 85%; 
-  background: linear-gradient(to right , rgba(255,255,255,0.7), rgba(255, 255, 255, 0)); 
-  border-radius: 2rem;
-  z-index: 2;
+.home__data{
+  row-gap: 1.5rem;
 }
 
-.intro{
-  margin-top: 20vh;
+.home__title{
+  text-align: center;
+  font-size: var(--largest-font-size);
+  letter-spacing: .3px;
+  margin-bottom: .5rem;
 }
 
-.title{
-  font-family: serif;
-  font-size: 4rem;
-  padding: 1rem 0rem; 
-  
+.home__blob{
+  position: relative;
+  width: 300px;
+  height: 390px;
+  background-color: var(--body-color);
+  border: 2px solid var(--text-color-light);
+  justify-self: center; /* justify-self, not justify-content */
+  border-radius: 8rem;
+  place-items: center;
 }
 
-h1{
-  font-size: 2.5rem;
-  line-height: 100%;
-  padding: 0rem 0rem;
-}
-
-h2{
-  font-size: 1rem;
-  line-height: 125%;
-  padding: 1rem 0rem;
-}
-
-p{
-  padding: 1rem 0rem; 
-  color: #656767;
-}
-
-.tabs{
+.home__perfil{
+  width: 270px;
+  height: 360px;
+  background: var(--gradient-color);
+  border-radius: 7.5rem;
+  overflow: hidden;
+  /* Following lines center the image both horizontally and vertically */
   display: flex;
-  flex-direction: column;
-  align-items: left;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.tabs a{
-  padding: 0.5rem 0rem;
+.home__social{
+  justify-self: center;
+  display: flex;
+  column-gap: 1.25rem;
 }
 
-.tabs h2{
-  font-size: 1.5rem;
-  line-height: 100%;
-  padding: 1rem 1rem;
-  margin-left: 0.5rem;
+.home__social-link{
+  font-size: 1.25rem;
+  color: var(--text-color-light);
+  transition: color .3s;
 }
 
-.social img{
-  width: 2rem;
-  padding: 0.25rem;
+.home__social-link:hover{
+  color: var(--title-color);
 }
 
+.home__info{
+  display: grid;
+  row-gap: 2rem;
+}
+
+.home__info-title{
+  font-family: var(--body-font);
+  font-size: var(--smaller-font-size);
+  font-weight: 400;
+  color: var(--text-color-light);
+  margin-bottom: 1rem;
+}
+
+.home__info-description{
+   font-family: var(--title-font);
+   color: var(--title-color);
+   padding-right: 4rem;
+}
+
+/*================== Skills =====================*/
+.skills__container{
+  row-gap: 3.5rem;
+}
+
+.skills__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semibold);
+  margin-bottom: 2.5rem; /* space under the skill titles */
+}
+
+.skill__title i{ /* what is i */
+  font-size: 1rem;
+  font-weight: initial;
+}
+
+.skills__info, 
+.skills__data{
+  display: grid;
+}
+.skills__info{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem 2rem;
+}
+.skills__data{
+  justify-content: center;
+  text-align: center;
+}
+
+.skills__name{
+  font-size: var(--small-font-size);
+  margin-bottom: .25rem;
+}
+
+.skills__subtitle{
+  font-size: var(--tiny-font-size);
+  color: var(--text-color-light);
+}
+
+/* Animation Skills (in effect if icon/image is added) */
+.skills__bolb:hover img{
+  animation: bounce-skills .6s;
+}
+@keyframes bounce-skills{
+  0%{
+    transform: translate(0);
+  }
+  20%{
+    transform: translateY(-6px);
+  }
+  40%{
+    transform: translate(0);
+  }
+  60%{
+    transform: translateY(-3px);
+  }
+  80%{
+    transform: translate(0);
+  }
+}
