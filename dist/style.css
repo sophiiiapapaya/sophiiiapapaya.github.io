@@ -2,23 +2,109 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #313536; 
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+@font-face {
+  font-family: "primaryFont";
+  src: url(SourceSansPro-Regular.ttf);
 }
 
 main {
-  min-height: 100vh;
+  min-height: 80vh;
   background: linear-gradient(to right top, #91C1CB, #B9D6A9);
   display: flex; 
   align-items: center;
-  justify-content: center;
+  justify-content: right;
+  z-index: 0;
 }
 main > header {
   padding: 3rem 3rem 0 3rem;
 }
 
+section{
+  padding: 5%;
+}
+/*
+.hero {
+  position: absolute; 
+  right: 0;
+  top: 0;
+  height: 90vh;
+  z-index: 1;
+}*/
+
+
 .glass{
-  background: white;
+  background: rgba(255, 255, 255, 0.478);
   min-height: 80vh; 
-  width: 60%; 
-  background: linear-gradient(to right bottom, rgba(255,255,255,0.7, rgba(255,255,255,0.3))); 
+  width: 85%; 
+  background: linear-gradient(to right , rgba(255,255,255,0.7), rgba(255, 255, 255, 0)); 
   border-radius: 2rem;
+  z-index: 2;
+}
+
+.intro{
+  margin-top: 20vh;
+}
+
+.title{
+  font-family: serif;
+  font-size: 4rem;
+  padding: 1rem 0rem; 
+  
+}
+
+h1{
+  font-size: 2.5rem;
+  line-height: 100%;
+  padding: 0rem 0rem;
+}
+
+h2{
+  font-size: 1rem;
+  line-height: 125%;
+  padding: 1rem 0rem;
+}
+
+p{
+  padding: 1rem 0rem; 
+}
+
+.tabs{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.tabs a{
+  padding: 0.5rem 0rem;
+}
+
+.tabs h2{
+  font-size: 1.5rem;
+  line-height: 100%;
+  padding: 1rem 1rem;
+  margin-left: 0.5rem;
+}
+
+.social img{
+  width: 2rem;
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  body{
+
+  }
+  .intro{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+  }
+  .intro img{
+    width: 50%;
+  }
 }
