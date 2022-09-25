@@ -1,4 +1,4 @@
-The project refers to the tutorial created by the youtube channel Bedimcode. 
+The project refers to the tutorial created by the youtube channel Bedimcode. Visit https://www.youtube.com/watch?v=5-_2z-DdWng to learn the fundamentals
 
 The tutorial covers HTML, CSS, and Javascript coding to build a personal responsive portfolio. It shows how to insert icons and use google fonts as well. 
 
