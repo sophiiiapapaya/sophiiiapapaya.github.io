@@ -5,10 +5,67 @@
   <title>Sophia Wu's Portfolio</title>
   <link rel="stylesheet" href="dist/style.css">
 
+  <!--===================== RemixIcon =========================-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 <body>
-<!-- partial:index.partial.html -->
-  <main>
+  <!--===================== Header =========================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        Sophia
+      </a>
+      <div class="nav__menu" id="nav-menu">
+         <ul class="nav__list grid">
+           <li class="nav__item">
+            <a href="#home" class="nav__link">
+              <i class="ri-home-5-line"></i> About Me
+            </a>
+           </li>
+
+           <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="ri-trophy-line"></i> Skills
+            </a>
+           </li>
+
+           <li class="nav__item">
+            <a href="#experiences" class="nav__link">
+              <i class="ri-briefcase-2-line"></i> Experiences
+            </a>
+           </li>
+
+           <li class="nav__item">
+            <a href="#projects" class="nav__link">
+              <i class="ri-history-line"></i> Projects
+            </a>
+           </li>
+
+           <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="ri-mail-send-line"></i> Contact
+            </a>
+           </li>
+         </ul>
+         <!-- Close button -->
+         <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+         </div>
+      </div>
+      <div class="nav__buttons">
+        <!-- theme change button -->
+        <i class="ri-moon-line change-theme"  id="theme-button"></i>
+
+        <!-- toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-4-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--===================== Main =========================-->
+  <main class="main">
   <section>
     
     <div class="lastname">
@@ -25,10 +82,11 @@
       </div>
       -->
       <a href="#">About Me</a>
+      <a href="#skills">Skills</a>
       <a href="#experience">Experiences</a>
       <a href="#school-engagement">School Engagement</a>
       <a href="#projects">Projects</a>
-
+      
     </nav>
     
   </section>
@@ -40,7 +98,10 @@
             <h2>
               <a href="#">About Me</a>
             </h2>
-            <h1 class="title">Sophia Wu</h>
+            <h1 class="title">
+              Hi,
+              <br>I'm Sophia Wu
+            </h>
           </header>
           <p>Hi there, I am an Electrical Engineering undergraduate student at UC Riverside</p>
         </div>
@@ -58,6 +119,10 @@
     
 
   </main>
+  <!--===================== Footer =========================-->
+  <footer class="footer">
+
+  </footer>
 
 <!-- partial -->
   <script  src="./dist/script.js"></script>
