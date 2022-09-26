@@ -1,3 +1,5 @@
+/* sophwu.com will only be updated after merging */
+
 The project refers to the tutorial created by the youtube channel Bedimcode. Visit https://www.youtube.com/watch?v=5-_2z-DdWng to learn the fundamentals
 
 The tutorial covers HTML, CSS, and Javascript coding to build a personal responsive portfolio. It shows how to insert icons and use google fonts as well. 
@@ -17,6 +19,3 @@ Porperties used:
 1. Navigate to "Getting Started" and either copy-paste code under "Use Swiper from CDN" or download assets
 2. Go to "Demos", Navigate to Css mode > Core
 3. Navigate to Responsive breakpoints > Core
-
-
-A Pen created on CodePen.io. Original URL: [https://codepen.io/sophiiiapapaya/pen/gOoELNg](https://codepen.io/sophiiiapapaya/pen/gOoELNg).
