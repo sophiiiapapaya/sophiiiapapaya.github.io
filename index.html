@@ -3,10 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Sophia Wu's Portfolio</title>
-  <link rel="stylesheet" href="dist/style.css">
 
-  <!--==================== RemixIcon ======================-->
+  <!--============== Favicon =================-->
+  <link rel="shortcut icon" href="Assets/img/favicon.png" type="image/x-icon">
+
+  <!--=============== RemixIcon =================-->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- some images are from upsplash -->
+
+  <!--============== Swiper CSS =================-->
+  <link rel="stylesheet" href="Assets/css/swiper-bundle.min.css">
+
+  <!--================= CSS =====================-->
+  <link rel="stylesheet" href="Assets/css/style.css">
 
 </head>
 <body>
@@ -81,7 +90,7 @@
           </h1>
           <div class="home__blob grid">
             <div class="home__perfil">
-              <img src="./Assets/Hero.png" alt="Hero">
+              <img src="./Assets/img/Hero.png" alt="Hero">
             </div>
           </div>
           <ul class="home__social">
@@ -293,7 +302,49 @@
 
     <!--------------------- Projects ------------------------>
     <section class="projects section" id="projects">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">Most recent work</span>
+      <div class="container section__border">
+        <div class="projects__container swiper">
+          <div class="swiper-wrapper">
+            <!------------- Project 1 --------------------->
+            <div class="projects__content swiper-slide">
+              <img src="./Assets//img/project img1.jpg" alt="projects image" class="projects__img">
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h1 class="projects__title">Personal Portfolio</h1>
+                <a href="#" class="projects__button">View demo<i class="ri-arrow-right-line"></i></a>
+              </div>
+            </div>
 
+            <!------------- Project 2 --------------------->
+            <div class="projects__content swiper-slide">
+              <img src="./Assets/img/project img2.jpg" alt="projects image" class="projects__img">
+              <div>
+                <span class="projects__subtitle">UAS@UCR</span>
+                <h1 class="projects__title">Auxiliary Controller</h1>
+                <a href="#" class="projects__button">View demo<i class="ri-arrow-right-line"></i></a>
+              </div>
+            </div>
+
+            <!------------- Project 3 --------------------->
+            <div class="projects__content swiper-slide">
+              <img src="./Assets/img/project img3.jpg" alt="projects image" class="projects__img">
+              <div>
+                <span class="projects__subtitle">UAS@UCR</span>
+                <h1 class="projects__title">Power Distribution</h1>
+                <a href="#" class="projects__button">View demo<i class="ri-arrow-right-line"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Swiper arrows -->
+          <div class="swiper-button-next"><i class="ri-arrow-right-s-line"></i></div>
+          <div class="swiper-button-prev"><i class="ri-arrow-left-s-line"></i></div>
+          <!-- Swiper pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -302,8 +353,17 @@
 
   </footer>
 
-<!-- partial -->
-  <script  src="./dist/script.js"></script>
+  <!--===================== Scoll Up ========================-->
+
+  <!--===================== Scrollreveal ========================-->
+
+  <!--===================== Swiper JS ========================-->
+  <script src="./Assets/js/swiper-bundle.min.js"></script>
+
+  <!--===================== Footer ========================-->
+
+  <!--===================== Main JS ========================-->
+  <script  src="./Assets/js/script.js"></script>
 
 </body>
 </html>
