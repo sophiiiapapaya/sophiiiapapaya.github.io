@@ -19,3 +19,5 @@ Porperties used:
 1. Navigate to "Getting Started" and either copy-paste code under "Use Swiper from CDN" or download assets
 2. Go to "Demos", Navigate to Css mode > Core
 3. Navigate to Responsive breakpoints > Core
+
+- Find images at https://unsplash.com/
