@@ -1,4 +1,7 @@
-/* Responsive personal portfolio organization: https://www.youtube.com/watch?v=5-_2z-DdWng*/
+/* Responsive personal portfolio organization & follow along: 
+   https://www.youtube.com/watch?v=5-_2z-DdWng
+   https://github.com/bedimcode/responsive-watches-website
+*/
 /*=================== Google fonts ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
 
@@ -357,3 +360,51 @@ img{
     transform: translate(0);
   }
 }
+
+/*================== Qualifications =====================*/
+.qualification{
+  position: relative;
+}
+
+.qualification__container{
+  row-gap: 3.5rem;
+}
+
+.qualification__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semibold);
+  margin-bottom: 2rem;
+}
+.qualification__title i{
+  font-size: 1rem;
+  font-weight: initial;
+}
+
+.qualification__info{
+  display: grid;
+  row-gap: 2rem;
+}
+
+.qualification__name{
+  font-size: var(--normal-font-size);
+  margin-bottom: 1.25rem;
+}
+
+.qualification__country,
+.qualification__year{
+  display: block;
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+.qualification__country{
+  margin-bottom: .75rem;
+}
+
+/*================== Projects =====================*/
+
+
+/*================== Contact =====================*/
