@@ -15,6 +15,8 @@ Porperties used:
 
 - To use Swiper class, visit https://swiperjs.com/. 
 1. Navigate to "Getting Started" and either copy-paste code under "Use Swiper from CDN" or download assets
+2. Go to "Demos", Navigate to Css mode > Core
+3. Navigate to Responsive breakpoints > Core
 
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/sophiiiapapaya/pen/gOoELNg](https://codepen.io/sophiiiapapaya/pen/gOoELNg).
