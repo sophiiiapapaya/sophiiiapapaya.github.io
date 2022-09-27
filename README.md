@@ -6,7 +6,7 @@ The tutorial covers HTML, CSS, and Javascript coding to build a personal respons
 
 # Porperties used:
 
-## To use Remis Icon
+## To use Remix Icon
 ### visit https://remixicon.com/
 1. Go to https://github.com/Remix-Design/RemixIcon
 2. Scroll down to "CDN" and follow the instruction. 
