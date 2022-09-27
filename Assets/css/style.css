@@ -761,7 +761,17 @@ body.dark-theme{
 
 /*================= Breakpoints ====================*/
 /* Small Device */
+@media screen and (max-width: 340px) {
+  .container{
+    margin-inline: 1rem;
+  }
 
+  .nav__menu{
+    padding-bottom: 4rem;
+  }
+  
+  
+}
 /* Medium Device */
 
 /* Large Device */
