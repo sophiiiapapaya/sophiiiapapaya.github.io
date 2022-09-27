@@ -4,7 +4,7 @@ The project refers to the tutorial created by the youtube channel Bedimcode. Vis
 
 The tutorial covers HTML, CSS, and Javascript coding to build a personal responsive portfolio. It shows how to insert icons and use google fonts as well. 
 
-# Porperties used:
+## Porperties used:
 
 ## To use the icons found on https://remixicon.com/
 1. Go to https://github.com/Remix-Design/RemixIcon
