@@ -770,7 +770,18 @@ body.dark-theme{
     padding-bottom: 4rem;
   }
   
-  
+  .nav__list{
+    gap: 1rem 1.25rem;
+  }
+
+  .skills__info{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .projects__img{
+    width: 200px;
+    justify-self: center;
+  }
 }
 /* Medium Device */
 
