@@ -20,4 +20,9 @@ Porperties used:
 2. Go to "Demos", Navigate to Css mode > Core
 3. Navigate to Responsive breakpoints > Core
 
+- To use the email/contact form, visit https://www.emailjs.com/
+1. Navigate to "docs" > Create a contact form
+2. Load EmailJS SDK to HTML file
+3. Sign in and obtain [serviceID - templateID - #form (formID in html) - publickey] to emailjs.sendForm()
+
 - Find images at https://unsplash.com/
