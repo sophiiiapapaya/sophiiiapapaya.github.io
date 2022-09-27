@@ -6,7 +6,9 @@ The tutorial covers HTML, CSS, and Javascript coding to build a personal respons
 
 # Porperties used:
 
-## To use the icons found on https://remixicon.com/, go to https://github.com/Remix-Design/RemixIcon, scroll down to "CDN" and follow the instruction. 
+## To use the icons found on https://remixicon.com/
+1. Go to https://github.com/Remix-Design/RemixIcon
+2. Scroll down to "CDN" and follow the instruction. 
 
 ## To use Google Fonts, visit https://fonts.google.com/
 1. Select the desired fonts
