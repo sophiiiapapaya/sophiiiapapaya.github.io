@@ -31,4 +31,11 @@ The tutorial covers HTML, CSS, and Javascript coding to build a personal respons
 2. Load EmailJS SDK to HTML file
 3. Sign in and obtain [serviceID - templateID - #form (formID in html) - publickey] to emailjs.sendForm()
 
+## To use scroll reveal
+##### visit https://scrollrevealjs.org/
+1. Click on GitHub at the upper right corner
+2. Navigate to dist/scrollreveal.min.js
+3. Open raw file and save to local assets/js folder
+4. Or go to Guide and copy-paste the script property
+
 ### Find images at https://unsplash.com/
