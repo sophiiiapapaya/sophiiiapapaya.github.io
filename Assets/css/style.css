@@ -74,6 +74,7 @@ body{
   font-size: var(--normal-font-size) ;
   background-color: var(--body-color) ;
   color: var(--text-color);
+  transition: background .4s; /* For dark theme animation*/
 }
 
 h1,h2,h3{
@@ -93,6 +94,39 @@ a{
 img{
   max-width: 100%;
   height: auto;    
+}
+/*================== Theme =====================*/
+.nav__buttons{
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+.change-theme{
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: color .3s;
+}
+
+/*================== Variables Dark Theme =====================*/
+body.dark-theme{
+  --title-color: hsl(207,4%,95%); 
+  --text-color: hsl(207, 4%, 65%); 
+  --body-color: hsl(207, 4%, 10%); 
+  --container-color: hsl(207, 4%, 12%); 
+}
+
+.dark-theme .nav,
+.dark-theme .nav__menu,
+.dark-theme .scrollup{
+  background-color: var(--container-color);
+  box-shadow: 0 4px 20px hsla(207, 24%, 8%, .4);
+}
+
+.dark-theme .home__social-link{
+  color: var(--title-color);
+
 }
 
 /*================== Reuseable CSS classes =====================*/
@@ -153,6 +187,7 @@ img{
   box-shadow: 0px 4px 20px hsla(207, 24%, 35%, 0.1);
   padding-inline: 1.5rem;
   border-radius: 3rem;
+  transition: background .4s; /* For dark theme animation*/
 }
 
 .nav__logo,
@@ -221,6 +256,11 @@ img{
   bottom: 2rem;
 }
 
+/* Active link */
+.active-link{
+  color: var(--title-color);
+}
+
 /*================== Home =====================*/
 .home__container{
   row-gap: 4rem;
@@ -245,15 +285,16 @@ img{
   background-color: var(--body-color);
   border: 2px solid var(--text-color-light);
   justify-self: center; /* justify-self, not justify-content */
-  border-radius: 8rem;
+  border-radius: 9rem;
   place-items: center;
+  transition: background .4s; /* For dark theme animation*/
 }
 
 .home__perfil{
   width: 270px;
   height: 360px;
   background: var(--gradient-color);
-  border-radius: 7.5rem;
+  border-radius: 8rem;
   overflow: hidden;
   /* Following lines center the image both horizontally and vertically */
   display: flex;
@@ -586,6 +627,7 @@ img{
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
   padding: .35rem;
+  transition: background .4s; /* For dark theme animation*/
 }
 
 .contact__form-area{
@@ -626,3 +668,100 @@ img{
   color: hsl(207, 56%, 45%);
 
 }
+
+/*================== Footer =====================*/
+.footer__container{
+  padding: 3rem 0 7rem;
+  text-align: center;
+}
+
+.footer__title{
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semibold);
+  margin-bottom: 1rem;
+}
+
+.footer__list,
+.footer__social{
+  display: flex;
+  justify-content: center;
+}
+.footer__list{
+  margin: 2.5rem 0;
+  column-gap: 2.5rem;
+}
+.footer__link{
+  columns: var(--title-color);
+}
+
+.footer__link:hover{
+  text-decoration: underline;
+}
+
+.footer__social{
+  column-gap: 1.25rem;
+}
+
+.footer__social-link{
+  font-size: 1.25rem;
+  color: var(--title-color);
+  transition: transform .3s;
+}
+
+.footer__social-link:hover{
+  transform: translateY(-.15rem);
+}
+
+.footer__copy{
+  display: block;
+  margin-top: 4.5rem;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+/*================== Scroll Bar =====================*/
+::-webkit-scrollbar{
+  width: 0.6rem;
+  border-radius: .5rem;
+  background-color: hsl(207, 4%, 75%);
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: .5rem;
+  background-color: hsl(207, 4%, 65%);
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(207, 4%, 55%);
+}
+
+/*================== Scroll Up =====================*/
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  bottom: -30%;
+  background-color: var(--body-color);
+  box-shadow: 0 4px 12px hsl(207, 24%, 35%, .15);
+  display: inline-flex;
+  padding: .35rem;
+  border-radius: .25rem;
+  font-size: 1.1rem;
+  color: var(--title-color);
+  z-index: var(--z-tooltip); 
+  transition: bottom .3s, transform .3s;
+}
+
+.scrollup:hover{
+  transform: translateY(-.25rem);
+}
+
+/* Show scroll up */
+.show-scroll{
+  bottom: 7.5rem;
+}
+
+/*================= Breakpoints ====================*/
+/* Small Device */
+
+/* Medium Device */
+
+/* Large Device */

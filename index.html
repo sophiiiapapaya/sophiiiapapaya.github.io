@@ -2,11 +2,11 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sophia Wu's Portfolio</title>
 
-  <!--============== Favicon =================-->
+  <!--======== Favicon (website icon) ===========-->
   <link rel="shortcut icon" href="Assets/img/favicon.png" type="image/x-icon">
-
   <!--=============== RemixIcon =================-->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <!-- some images are from upsplash -->
@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="Assets/css/style.css">
 
 </head>
+
 <body>
   <section>
     <div class="lastname">
@@ -33,7 +34,7 @@
       <div class="nav__menu" id="nav-menu">
          <ul class="nav__list grid">
            <li class="nav__item">
-            <a href="#home" class="nav__link">
+            <a href="#home" class="nav__link active-link">
               <i class="ri-home-5-line"></i> About Me
             </a>
            </li>
@@ -82,7 +83,7 @@
   <main class="main">
     <!-------------------- About Me ------------------------->
     <section class="home section" id="home">
-      <div class="home container" container grid section__border> <!-- each is the property in css-->
+      <div class="home__container container grid section__border"> <!-- each is the property in css-->
         <div class="home__data grid">
           <h1 class="home__title">
             Hi, I'm Sophia <br>
@@ -98,7 +99,7 @@
               <i class="ri-linkedin-box-line"></i>
             </a>
 
-            <a href="https://github.com/sophiiiapapaya"" target="_blank" class="home__social-link">
+            <a href="https://github.com/sophiiiapapaya" target="_blank" class="home__social-link">
               <i class="ri-github-line"></i>
             </a>
 
@@ -384,11 +385,53 @@
 
   <!--===================== Footer ========================-->
   <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">Sophia</h1>
+      <p>EE Undergraduate Student</p>
 
+      <ul class="footer__list">
+        <li>
+          <a href="#home" class="footer__link">About Me</a>
+        </li>
+
+        <li>
+          <a href="#skills" class="footer__link">Skills</a>
+        </li>
+
+        <li>
+          <a href="#qualifications" class="footer__link">Qualifications</a>
+        </li>
+
+        <li>
+          <a href="#projects" class="footer__link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="footer__link">Contact</a>
+        </li>
+      </ul>
+      <ul class="footer__social">
+        <a href="https://www.linkedin.com/in/guanjie-wu/" target="_blank" class="footer__social-link">
+          <i class="ri-linkedin-box-line"></i>
+        </a>
+        <a href="https://github.com/sophiiiapapaya" target="_blank" class="footer__social-link">
+          <i class="ri-github-line"></i>
+        </a>
+        <a href="https://www.instagram.com/sophiiia_mukua" target="_blank" class="footer__social-link">
+          <i class="ri-instagram-line"></i>
+        </a>
+      </ul>
+
+      <span class="footer__copy">
+        &#169; Copyright Sophiiia Mukua. All rights reserved
+      </span>
+    </div>
   </footer>
 
   <!--===================== Scoll Up ======================-->
-
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
   <!--=================== Scrollreveal ====================-->
 
   <!--===================== Swiper JS =====================-->
