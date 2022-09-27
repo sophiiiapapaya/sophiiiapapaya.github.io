@@ -8,7 +8,7 @@ Porperties used:
 
 - To use the icons found on https://remixicon.com/, go to https://github.com/Remix-Design/RemixIcon, scroll down to "CDN" and follow the instruction. 
 
-- To use Google Fonts,
+- To use Google Fonts, visit https://fonts.google.com/
 1. Select the desired fonts
 2. Scroll down to "Styles" and add select the style(s)
 3. Click the upper right corner if "selected families" does not show up
