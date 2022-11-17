@@ -39,3 +39,4 @@ The tutorial covers HTML, CSS, and Javascript coding to build a personal respons
 4. Or go to Guide and copy-paste the script property
 
 ### Find images at https://unsplash.com/
+### Watch this video for hosting on GitHub tutorial: https://www.youtube.com/watch?v=8hrJ4oN1u_8
