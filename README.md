@@ -6,12 +6,12 @@ The tutorial covers HTML, CSS, and Javascript coding to build a personal respons
 
 # Porperties used:
 
-## To use Remix Icon
+## Remix Icon
 ##### visit https://remixicon.com/
 1. Go to https://github.com/Remix-Design/RemixIcon
 2. Scroll down to "CDN" and follow the instruction. 
 
-## To use Google Fonts
+## Google Fonts
 ##### visit https://fonts.google.com/
 1. Select the desired fonts
 2. Scroll down to "Styles" and add select the style(s)
@@ -19,21 +19,21 @@ The tutorial covers HTML, CSS, and Javascript coding to build a personal respons
 4. Select "@import" and copy-paste the text to the .css file to use all the selected fonts
 5. For easy access of different fonts, create a list of variables and define the fonts in :root{}
 
-## JavaScript
+## JavaScripts used
 
-## To use Swiper class
+## Swiper class
 ##### visit https://swiperjs.com/. 
 1. Navigate to "Getting Started" and either copy-paste code under "Use Swiper from CDN" or download assets
 2. Go to "Demos", Navigate to Css mode > Core
 3. Navigate to Responsive breakpoints > Core
 
-## To use the email/contact form
+## Email/contact form
 ##### visit https://www.emailjs.com/
 1. Navigate to "docs" > Create a contact form
 2. Load EmailJS SDK to HTML file
 3. Sign in and obtain [serviceID - templateID - #form (formID in html) - publickey] to emailjs.sendForm()
 
-## To use scroll reveal
+## Scroll reveal
 ##### visit https://scrollrevealjs.org/
 1. Click on GitHub at the upper right corner
 2. Navigate to dist/scrollreveal.min.js
