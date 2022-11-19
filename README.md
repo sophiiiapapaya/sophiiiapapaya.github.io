@@ -19,6 +19,8 @@ The tutorial covers HTML, CSS, and Javascript coding to build a personal respons
 4. Select "@import" and copy-paste the text to the .css file to use all the selected fonts
 5. For easy access of different fonts, create a list of variables and define the fonts in :root{}
 
+## JavaScript
+
 ## To use Swiper class
 ##### visit https://swiperjs.com/. 
 1. Navigate to "Getting Started" and either copy-paste code under "Use Swiper from CDN" or download assets
