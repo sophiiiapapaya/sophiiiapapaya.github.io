@@ -441,6 +441,10 @@ body.dark-theme{
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
+
+.qualification__jd{
+    max-width: 150px;
+}
 .qualification__country{
   margin-bottom: .75rem;
 }
