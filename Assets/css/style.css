@@ -458,9 +458,9 @@ body.dark-theme{
 }
 
 .qualification__jd{
-  /* max-width: 50%; */
+  max-width: 50%; 
   margin-bottom:1em; 
-  max-width: 30em;
+  /* max-width: 30em; */
   font-size: var(--small-font-size);
 }
 .qualification__location{
